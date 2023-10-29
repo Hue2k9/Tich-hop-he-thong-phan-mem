@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QLSV xmlns="http://tempuri.org/bai1.xsd">
+	<SinhVien masv="sinhvien01">
+		<HoTen>Hoang Minh Hue</HoTen>
+		<NgaySinh>1998-08-12</NgaySinh>
+		<GioiTinh>Nu</GioiTinh>
+		<TrinhDo>Dai hoc</TrinhDo>
+		<HeSoDiem>10</HeSoDiem>
+	</SinhVien>
+	<SinhVien masv="sinhvien01">
+		<HoTen>Hoang Minh Hue</HoTen>
+		<NgaySinh>1998-08-12</NgaySinh>
+		<GioiTinh>Nu</GioiTinh>
+		<TrinhDo>Dai hoc</TrinhDo>
+		<HeSoDiem>10</HeSoDiem>
+	</SinhVien>
+</QLSV>
