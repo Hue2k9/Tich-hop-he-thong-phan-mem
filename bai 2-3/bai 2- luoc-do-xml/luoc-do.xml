@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QLSV xmlns="http://tempuri.org/LuocDo.xsd">
+	<SinhVien masv="sinhvien01">
+		<HoTen>Nguyen Van A</HoTen>
+		<NgaySinh>1996-02-02</NgaySinh>
+		<GioiTinh>Nu</GioiTinh>
+		<HeSo>2.56</HeSo>
+		<TrinhDo>Dai hoc</TrinhDo>
+	</SinhVien>
+</QLSV>
