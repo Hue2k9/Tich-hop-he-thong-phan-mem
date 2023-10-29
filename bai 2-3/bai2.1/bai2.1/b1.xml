@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSSV>
+	<SV>
+		<Hodem>
+			Pham Tuan
+		</Hodem>
+		<Ten>Dat</Ten>
+		<TBKT>6</TBKT>
+		<DiemThi>4</DiemThi>
+		<KetQua>
+			<BangSo>2</BangSo>
+			<BangChu>Hai</BangChu>
+		</KetQua>
+	</SV>
+
+<SV>
+		<Hodem>
+			Tran Van
+		</Hodem>
+		<Ten>Binh</Ten>
+		<TBKT>6</TBKT>
+		<DiemThi>5</DiemThi>
+		<KetQua>
+			<BangSo>3</BangSo>
+			<BangChu>Ba</BangChu>
+		</KetQua>
+	</SV>
+
+<SV>
+		<Hodem>
+			Le Binh
+		</Hodem>
+		<Ten>Bao</Ten>
+		<TBKT>7</TBKT>
+		<DiemThi>6</DiemThi>
+		<KetQua>
+			<BangSo>5</BangSo>
+			<BangChu>nam</BangChu>
+		</KetQua>
+	</SV>
+</DSSV>

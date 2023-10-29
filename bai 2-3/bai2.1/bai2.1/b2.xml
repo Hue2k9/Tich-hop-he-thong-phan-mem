@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSSV>
+	<SV>
+		<HoTen>Hoang Minh Hue</HoTen>
+		<NgaySinh>9/7/2002</NgaySinh>
+		<Lop>httt-02</Lop>
+		<MonHoc TenMon="Toan">
+			<Lan1>5</Lan1>
+			<Lan2>6</Lan2>
+			<CaNam>8</CaNam>
+		</MonHoc>
+		<MonHoc TenMon="Van">
+			<Lan1>7</Lan1>
+			<Lan2>5</Lan2>
+			<CaNam>10</CaNam>
+		</MonHoc>
+		<HocLuc>Gioi</HocLuc>
+		<HanhKiem>Tot</HanhKiem>
+	</SV>
+	<SV>
+		...
+	</SV>
+</DSSV>

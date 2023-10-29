@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="vidu.xslt"?>
+<lophoc>
+	<sinhvien>
+		<hoten>Khanh</hoten>
+		<diem>7</diem>
+		<diachi>Ha Noi</diachi>
+		<diemHK>
+			<lan1>5</lan1>
+			<lan2>9</lan2>
+		</diemHK>
+	</sinhvien>
+	<sinhvien>
+		<hoten>Tuan</hoten>
+		<diem>6</diem>
+		<diachi>Ha Noi</diachi>
+		<diemHK>
+			<lan1>5</lan1>
+			<lan2>9</lan2>
+		</diemHK>
+	</sinhvien>
+	<sinhvien>
+		<hoten>Phuong</hoten>
+		<diem>3</diem>
+		<diachi>Ha Noi</diachi>
+		<diemHK>
+			<lan1>5</lan1>
+			<lan2>9</lan2>
+		</diemHK>
+	</sinhvien>
+</lophoc>
