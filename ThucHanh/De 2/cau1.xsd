@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="cau1"
+    targetNamespace="http://tempuri.org/cau1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/cau1.xsd"
+    xmlns:mstns="http://tempuri.org/cau1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="maType">
+		<xs:restriction base="xs:string">
+			
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="tenType">
+		<xs:restriction base="xs:string"></xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="tacGiaType">
+		<xs:restriction base="xs:string"></xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="soTrangType">
+		<xs:restriction base="xs:integer">
+			<xs:minExclusive value="1"></xs:minExclusive>
+			<xs:maxExclusive value="1000"></xs:maxExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="thongTinType">
+		<xs:sequence>
+			<xs:element name="TenSach" type="tenType">
+			</xs:element>
+			<xs:element name="TacGia" type="tacGiaType" maxOccurs="3"></xs:element>
+		</xs:sequence>
+		
+	</xs:complexType>
+	<xs:complexType name="sachType">
+		<xs:sequence>
+			<xs:element name="ThongTin" type="thongTinType" minOccurs="1" maxOccurs="unbounded"></xs:element>
+			<xs:element name="SoTrang" type="soTrangType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaSach" type="maType" use="required"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="loaiSachType">
+		<xs:sequence>
+			<xs:element name="TenLoai"></xs:element>
+			<xs:element name="Sach" type="sachType" minOccurs="1" maxOccurs="unbounded">
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaLoai" type="maType" use="required"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="LoaiSach">
+		<xs:sequence>
+			<xs:element name="LoaiSach" type="loaiSachType" minOccurs="1" maxOccurs="3"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="ThuVien" type="LoaiSach"></xs:element>
+</xs:schema>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="cau1.xslt"?>
+<ThuVien xmlns="http://tempuri.org/cau1.xsd">
+	<LoaiSach MaLoai="KH">
+		<TenLoai>Kiem Hiep</TenLoai>
+		<Sach MaSach="MS01">
+			<ThongTin>
+				<TenSach>Loc Dinh Ky</TenSach>
+				<TacGia>Thi Nai Anh</TacGia>
+			</ThongTin>
+			<SoTrang>250</SoTrang>
+		</Sach>
+		<Sach MaSach="MS02">
+			<ThongTin>
+				<TenSach>Loc Dinh Ky</TenSach>
+				<TacGia>Thi Nai Anh</TacGia>
+			</ThongTin>
+			<SoTrang>100</SoTrang>
+		</Sach>
+	</LoaiSach>
+	<LoaiSach MaLoai="ABC">
+		<TenLoai>Kiem Hiep</TenLoai>
+		<Sach MaSach="MS03">
+			<ThongTin>
+				<TenSach>Doraemon</TenSach>
+				<TacGia>Thi Nai Anh</TacGia>
+			</ThongTin>
+			<SoTrang>90</SoTrang>
+		</Sach>
+		<Sach MaSach="MS04">
+			<ThongTin>
+				<TenSach>Loc Dinh Ky</TenSach>
+				<TacGia>Thi Nai Anh</TacGia>
+			</ThongTin>
+			<SoTrang>16</SoTrang>
+		</Sach>
+	</LoaiSach>
+</ThuVien>
