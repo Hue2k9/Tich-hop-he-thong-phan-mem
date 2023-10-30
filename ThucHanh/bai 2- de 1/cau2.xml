@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="cau2.xslt"?>
+<DangKyNghi xmlns="http://tempuri.org/cau2.xsd">
+	<NgayLamViec Ngay="04/08/2023">
+		<NhanVien MaNV="E0001">
+			<LyDo>P</LyDo>
+			<DonVi>0.5</DonVi>
+			<TrangThai>Cho phe duyet</TrangThai>
+		</NhanVien>
+		<NhanVien MaNV="E0003">
+			<LyDo>O</LyDo>
+			<DonVi>0.6</DonVi>
+			<TrangThai>Da phe duyet</TrangThai>
+		</NhanVien>
+	</NgayLamViec>
+	<NgayLamViec Ngay="05/08/2023">
+		<NhanVien MaNV="E0004">
+			<LyDo>P</LyDo>
+			<DonVi>0.5</DonVi>
+			<TrangThai>Cho phe duyet</TrangThai>
+		</NhanVien>
+		<NhanVien MaNV="E0005">
+			<LyDo>O</LyDo>
+			<DonVi>0.6</DonVi>
+			<TrangThai>Da phe duyet</TrangThai>
+		</NhanVien>
+	</NgayLamViec>
+</DangKyNghi>
