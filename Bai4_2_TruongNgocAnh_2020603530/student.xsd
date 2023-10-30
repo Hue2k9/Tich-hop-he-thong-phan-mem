@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="student"
+    targetNamespace="http://tempuri.org/student.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/student.xsd"
+    xmlns:mstns="http://tempuri.org/student.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<!--Nam-->
+	<xs:simpleType name="yearType">
+		<xs:restriction base="xs:gYear"></xs:restriction>
+	</xs:simpleType>
+	<!--MaSV-->
+	<xs:simpleType name="masvType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{8}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Name-->
+	<xs:simpleType name="nameType">
+		<xs:restriction base="xs:string">
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Ngay sinh-->
+	<xs:simpleType name="nsType">
+		<xs:restriction base="xs:date"></xs:restriction>
+	</xs:simpleType>
+	<!--lop-->
+	<xs:simpleType name="classType">
+		<xs:restriction base="xs:string">
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Stt-->
+	<xs:simpleType name="sttType">
+		<xs:restriction base="xs:integer"></xs:restriction>
+	</xs:simpleType>
+	<!--Mon hoc-->
+	<xs:simpleType name="mhType">
+		<xs:restriction base="xs:string">
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Lan1-->
+	<xs:simpleType name="lan1Type">
+		<xs:restriction base="xs:integer">
+			<xs:minExclusive value="0"></xs:minExclusive>
+			<xs:maxExclusive value="10"></xs:maxExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Lan2-->
+	<xs:simpleType name="lan2Type">
+		<xs:restriction base="xs:integer">
+			<xs:minExclusive value="0"></xs:minExclusive>
+			<xs:maxExclusive value="10"></xs:maxExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Ca nam-->
+	<xs:simpleType name="allType">
+		<xs:restriction base="xs:integer">
+			<xs:minExclusive value="0"></xs:minExclusive>
+			<xs:maxExclusive value="10"></xs:maxExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Hoc luc-->
+	<xs:simpleType name="hoclucType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Gioi"></xs:enumeration>
+			<xs:enumeration value="Kha"></xs:enumeration>
+			<xs:enumeration value="Yeu"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Hanh kiem-->
+	<xs:simpleType name="ktType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Gioi"></xs:enumeration>
+			<xs:enumeration value="Kha"></xs:enumeration>
+			<xs:enumeration value="Yeu"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--GV-->
+	<xs:simpleType name="gvType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Tran Mai Linh"></xs:enumeration>
+			<xs:enumeration value="Dang Thi Nhung"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!--monhoc-->
+	<xs:complexType name="subjectType">
+		<xs:sequence>
+			<xs:element name="stt" type="sttType"></xs:element>
+			<xs:element name="tenmon" type="mhType"></xs:element>
+			<xs:element name="lan1" type="lan1Type"></xs:element>
+			<xs:element name="lan2" type="lan2Type"></xs:element>
+			<xs:element name="canam" type="allType"></xs:element>
+			
+		</xs:sequence>
+	</xs:complexType>
+	<!--hocsinh-->
+	<xs:complexType name="studentType">
+		<xs:sequence>
+			<xs:element name="masv" type="masvType"></xs:element>
+			<xs:element name="hoten" type="nameType"></xs:element>
+			<xs:element name="ngaysinh" type="nsType"></xs:element>
+			<xs:element name="lop" type="classType"></xs:element>
+			<xs:element name="monhoc" type="mstns:subjectType" maxOccurs="5" minOccurs="3"></xs:element>
+			<xs:element name="hocluc" type="hoclucType"></xs:element>
+			<xs:element name="hanhkiem" type="ktType"></xs:element>
+			<xs:element name="giaovien" type="gvType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!--bangdiem-->
+	<xs:complexType name="bangdiemType">
+		<xs:sequence>
+			<xs:element name="namhoc" type="yearType"></xs:element>
+			<xs:element name="hocsinh" type="mstns:studentType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Ketqua" type="mstns:bangdiemType"></xs:element>
+</xs:schema>

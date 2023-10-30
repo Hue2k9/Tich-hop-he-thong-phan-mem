@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Class.xslt"?>
+<QLLH>
+	<Class>
+		<MaLop>CNTT14</MaLop>
+		<TenLop>Cong nghe thong tin 2014</TenLop>
+	</Class>
+	<Class>
+		<MaLop>TCKT14</MaLop>
+		<TenLop>Tai chinh ke toan 2014</TenLop>
+	</Class>
+	<Class>
+		<MaLop>TKDH14</MaLop>
+		<TenLop>Thiet ke do hoa</TenLop>
+	</Class>
+</QLLH>

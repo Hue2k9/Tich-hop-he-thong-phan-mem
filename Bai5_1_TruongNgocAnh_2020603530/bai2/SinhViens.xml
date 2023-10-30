@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Sinhvien.xslt"?>
+<QLSV xmlns="http://tempuri.org/XMLSchema1.xsd">
+	<SinhVien>
+		<MaSV>sv01</MaSV>
+		<TenSV>Nguyen Van A</TenSV>
+		<GioiTinh>Nam</GioiTinh>
+		<NgaySinh>2004-12-25</NgaySinh>
+		<MaLop>CNTT01</MaLop>
+	</SinhVien>
+	<SinhVien>
+		<MaSV>sv02</MaSV>
+		<TenSV>Tran Thi B</TenSV>
+		<GioiTinh>Nu</GioiTinh>
+		<NgaySinh>2004-05-12</NgaySinh>
+		<MaLop>KTPM01</MaLop>
+	</SinhVien>
+	<SinhVien>
+		<MaSV>sv03</MaSV>
+		<TenSV>Nguyen Van C</TenSV>
+		<GioiTinh>Nam</GioiTinh>
+		<NgaySinh>2004-12-12</NgaySinh>
+		<MaLop>CNTT02</MaLop>
+	</SinhVien>
+	<SinhVien>
+		<MaSV>sv02</MaSV>
+		<TenSV>Tran Thi D</TenSV>
+		<GioiTinh>Nu</GioiTinh>
+		<NgaySinh>2004-09-12</NgaySinh>
+		<MaLop>KTPM02</MaLop>
+	</SinhVien>
+</QLSV>

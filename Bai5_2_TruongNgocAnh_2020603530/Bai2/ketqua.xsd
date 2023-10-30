@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ketqua"
+    targetNamespace="http://tempuri.org/ketqua.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/ketqua.xsd"
+    xmlns:mstns="http://tempuri.org/ketqua.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="MaSVType">
+		<xs:restriction base="xs:string"></xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="MaMHType">
+		<xs:restriction base="xs:string"></xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="DiemType">
+		<xs:restriction base="xs:decimal">
+			<xs:minExclusive value="0"></xs:minExclusive>
+			<xs:maxExclusive value="10"></xs:maxExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="kqType">
+		<xs:sequence>
+			<xs:element name="Masv" type="MaSVType"></xs:element>
+			<xs:element name="Mamh" type="MaMHType"></xs:element>
+			<xs:element name="Diemthi" type="DiemType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="KetquaType">
+		<xs:sequence>
+			<xs:element name="KetQua" type="mstns:kqType" minOccurs="1" maxOccurs="5"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="DiemThi" type="mstns:KetquaType"></xs:element>
+</xs:schema>

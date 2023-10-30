@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Class.xslt"?>
+<QLMH xmlns="http://tempuri.org/Subject.xsd">
+	<Subject>
+		<Mamon>CSDL</Mamon>
+		<Tenmon>Co so du lieu</Tenmon>
+		<Sogio>30</Sogio>
+	</Subject>
+	<Subject>
+		<Mamon>MCB</Mamon>
+		<Tenmon>Mang can ban</Tenmon>
+		<Sogio>30</Sogio>
+	</Subject>
+	<Subject>
+		<Mamon>THDC</Mamon>
+		<Tenmon>Tin hoc dai cuong</Tenmon>
+		<Sogio>45</Sogio>
+	</Subject>
+	<Subject>
+		<Mamon>THVP</Mamon>
+		<Tenmon>Tin hoc van phong</Tenmon>
+		<Sogio>45</Sogio>
+	</Subject>
+	<Subject>
+		<Mamon>XLA</Mamon>
+		<Tenmon>Xu ly anh</Tenmon>
+		<Sogio>45</Sogio>
+	</Subject>
+</QLMH>

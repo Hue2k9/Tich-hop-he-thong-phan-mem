@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="cau_1"
+    targetNamespace="http://tempuri.org/cau 1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/cau 1.xsd"
+    xmlns:mstns="http://tempuri.org/cau 1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="ngayType">
+		<xs:restriction base="xs:date"></xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="maType">
+		<xs:restriction base="xs:string">
+			<!-- <xs:pattern value="[a-zA-Z0-9]{5}"></xs:pattern> -->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="donViType">
+		<xs:restriction base="xs:decimal"></xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="lyDoType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="P"></xs:enumeration>
+			<xs:enumeration value="O"></xs:enumeration>
+			<xs:enumeration value="TS"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TrangThaiType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Cho phe duyet"></xs:enumeration>
+			<xs:enumeration value="Da phe duyet"></xs:enumeration>
+			<xs:enumeration value="Khong duoc phep"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="NhanVienType">
+		<xs:sequence>
+			<xs:element name="LyDo" type="lyDoType"></xs:element>
+			<xs:element name="DonVi" type="donViType"></xs:element>
+			<xs:element name="TrangThai" type="TrangThaiType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaNV" type="maType" use="required"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="NgayLamViecType" >
+		<xs:sequence>
+			<xs:element name="NhanVien" type="NhanVienType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Ngay" type="ngayType" use="required" ></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="NgayLamViec">
+		<xs:sequence>
+			<xs:element name="NgayLamViec" type="NgayLamViecType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:element name="DangKyNghi" type="mstns:NgayLamViec"></xs:element>
+</xs:schema>

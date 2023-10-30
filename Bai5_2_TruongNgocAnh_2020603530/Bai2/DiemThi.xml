@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml-stylesheet type="text/xsl" href="Ketqua.xslt"?>
+<DiemThi xmlns="http://tempuri.org/ketqua.xsd">
+	<KetQua>
+		<Masv>sv01</Masv>
+		<Mamh>THDC</Mamh>
+		<Diemthi>8.0</Diemthi>
+	</KetQua>
+	<KetQua>
+		<Masv>sv02</Masv>
+		<Mamh>THVP</Mamh>
+		<Diemthi>9.5</Diemthi>
+	</KetQua>
+	<KetQua>
+		<Masv>sv03</Masv>
+		<Mamh>THDC</Mamh>
+		<Diemthi>5.0</Diemthi>
+	</KetQua>
+	<KetQua>
+		<Masv>sv04</Masv>
+		<Mamh>THVP</Mamh>
+		<Diemthi>9.0</Diemthi>
+	</KetQua>
+</DiemThi>

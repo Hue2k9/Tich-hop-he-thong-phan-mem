@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Ketqua xmlns="http://tempuri.org/student.xsd">
+	<namhoc>2009</namhoc>
+	<hocsinh>
+		<masv>20225067</masv>
+		<hoten>Truong Van A</hoten>
+		<ngaysinh>2003-04-12</ngaysinh>
+		<lop>Httt02</lop>
+		<monhoc>
+			<stt>1</stt>
+			<tenmon>Toan</tenmon>
+			<lan1>7</lan1>
+			<lan2>8</lan2>
+			<canam>8</canam>
+		</monhoc>
+		<monhoc>
+			<stt>2</stt>
+			<tenmon>Van</tenmon>
+			<lan1>7</lan1>
+			<lan2>8</lan2>
+			<canam>8</canam>
+		</monhoc>
+		<monhoc>
+			<stt>3</stt>
+			<tenmon>Anh</tenmon>
+			<lan1>6</lan1>
+			<lan2>8</lan2>
+			<canam>7</canam>
+		</monhoc>
+		<monhoc>
+			<stt>4</stt>
+			<tenmon>Hoa</tenmon>
+			<lan1>7</lan1>
+			<lan2>9</lan2>
+			<canam>8</canam>
+		</monhoc>
+		<monhoc>
+			<stt>5</stt>
+			<tenmon>Ly</tenmon>
+			<lan1>7</lan1>
+			<lan2>9</lan2>
+			<canam>8</canam>
+		</monhoc>
+		<hocluc>Kha</hocluc>
+		<hanhkiem>Gioi</hanhkiem>
+		<giaovien>Tran Mai Linh</giaovien>
+	</hocsinh>
+</Ketqua>
